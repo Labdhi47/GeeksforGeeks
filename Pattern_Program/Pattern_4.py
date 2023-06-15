@@ -6,9 +6,9 @@
 
 class Solution:
     def printTriangle(self, N):
-        for i in range(N):
-            for j in range(i+1):
-                print(i+1,end=" ")
+        for row in range(N):
+            for col in range(row+1):
+                print(row+1,end=" ")
             print()    
 
 if __name__ == '__main__':
