@@ -6,8 +6,8 @@
 
 class Solution:
     def printTriangle(self, N):
-        for i in range(N):
-            for j in range(i+1):
+        for row in range(N):
+            for col in range(row+1):
                 print("*",end=" ")
             print()    
             
