@@ -6,6 +6,6 @@
 
 T=int(input())
 for row in range(T):
-  for col in range(N-row):
+  for col in range(T-row):
     print(col+1,end=" ")
   print() 
